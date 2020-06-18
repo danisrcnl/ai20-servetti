@@ -1,0 +1,27 @@
+mat-sidenav-container { 
+    margin: 20px; 
+    height: 100%; 
+}
+
+#toolbar-icon { 
+    margin-right: 10px; 
+}
+    #toolbar-icon:hover {
+        cursor: pointer;
+    }
+
+#container {
+    margin-top: 0px;
+}
+
+.mat-column-select { overflow: initial; }
+
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+    #button-login:hover {
+        cursor: pointer;
+    }

@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+    "email": "olivier@mail.com",
+    "password":
+    "$2a$10$9SFIVF0tDrwRoUlZOo9Q0urEs0cnpBXu9RWGf/TxuHjFzDteQhvDW",
+    "id": 1
+    }
+    ],  
+  "students": [
+    {
+      "id": "s000000",
+      "firstName": "Filippo",
+      "name": "Falco",
+      "group": 4,
+      "courseId": 1
+    },
+    {
+      "id": "s000001",
+      "firstName": "Andrea",
+      "name": "La Mantia",
+      "group": 4,
+      "courseId": 1
+    },
+    {
+      "id": "s000002",
+      "firstName": "Jacopo",
+      "name": "Petriccione",
+      "group": 3,
+      "courseId": 1
+    },
+    {
+      "id": "s000003",
+      "firstName": "Marco",
+      "name": "Calderoni",
+      "group": 2,
+      "courseId": 1
+    },
+    {
+      "id": "s000004",
+      "firstName": "Kouma",
+      "name": "Babacar",
+      "group": 4,
+      "courseId": 1
+    },
+    {
+      "id": "s000005",
+      "firstName": "Antonin",
+      "name": "Barak",
+      "group": 3,
+      "courseId": 1
+    },
+    {
+      "id": "s000006",
+      "firstName": "Fabio",
+      "name": "Lucioni",
+      "group": 2,
+      "courseId": 1
+    },
+    {
+      "id": "s000007",
+      "firstName": "Riccardo",
+      "name": "Saponara",
+      "group": 4,
+      "courseId": 1
+    },
+    {
+      "id": "s000008",
+      "firstName": "Diego",
+      "name": "Farias",
+      "group": "4",
+      "courseId": 1
+    },
+    {
+      "id": "s000009",
+      "firstName": "Mauro",
+      "name": "Vigorito",
+      "group": "1",
+      "courseId": 1
+    },
+    {
+      "id": "s000010",
+      "firstName": "Andrea",
+      "name": "Tabanelli",
+      "group": "3",
+      "courseId": 1
+    },
+    {
+      "id": "s000011",
+      "firstName": "Marco",
+      "name": "Mancosu",
+      "group": "3",
+      "courseId": 1
+    },
+    {
+      "id": "s000012",
+      "firstName": "Giulio",
+      "name": "Donati",
+      "group": "2",
+      "courseId": 0
+    },
+    {
+      "id": "s000013",
+      "firstName": "Panagiotis",
+      "name": "Tachsidis",
+      "group": "3",
+      "courseId": 0
+    },
+    {
+      "id": "s000014",
+      "firstName": "Gianluca",
+      "name": "Lapadula",
+      "group": "4",
+      "courseId": 0
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Applicazioni internet"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Portieri"
+    },
+    {
+      "id": 2,
+      "name": "Difensori"
+    },
+    {
+      "id": 3,
+      "name": "Centrocampisti"
+    },
+    {
+      "id": 4,
+      "name": "Attaccanti"
+    }
+  ]
+}

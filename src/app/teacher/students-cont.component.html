@@ -1,0 +1,8 @@
+<app-students
+    [enrolledStudents]="students"
+    [notEnrolledStudents]="studentsDb"
+    [dataSource]="dataSource"
+    (studentsDeleted)="onStudentsDeleted($event)"
+    (studentAdded)="onStudentAdded($event)">
+
+</app-students>
