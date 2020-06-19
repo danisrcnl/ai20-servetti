@@ -8,7 +8,8 @@ export interface DialogData {
 
 @Component({
     selector: 'app-login-dialog',
-    templateUrl: 'login-dialog.component.html',
+    templateUrl: './login-dialog.component.html',
+    styleUrls: ['./login-dialog.component.css']
   })
   export class LoginDialogComponent {
   
@@ -17,8 +18,12 @@ export interface DialogData {
   
     }
   
-    close(): void {
+    login(): void {
       this.dialogRef.close(this.data);
+    }
+
+    cancel(): void {
+      this.dialogRef.close();
     }
   
   }
