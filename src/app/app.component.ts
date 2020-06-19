@@ -1,6 +1,7 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
+import { LoginDialogComponent } from './auth/login-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,7 @@ export class AppComponent implements OnInit {
 
   }
 
-  ngOnInit(){}
+  ngOnInit() {}
 
   @ViewChild(MatSidenav)
   sidenav: MatSidenav;
@@ -34,23 +35,21 @@ export class AppComponent implements OnInit {
   }
 
   openDialog() {
-    const dialogRef = this.dialog.open(LoginDialog, {
+
+    const dialogRef = this.dialog.open(LoginDialogComponent, {
       width: '250px',
       data: {
         username: this.username,
         password: this.password
       }
     });
-
-    dialogRef.afterClosed.subscribe(result => {
-
+  
+    dialogRef.afterClosed().subscribe(result => {
+      this.username = result.username;
+      this.password = result.password;
+      console.log(this.username + this.password);
     });
   }
 
 }
 
-@Component({
-  selector: 'login-dialog',
-  template: '<input type="text"></input>',
-})
-export class LoginDialog {}
